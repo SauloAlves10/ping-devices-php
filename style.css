@@ -1,0 +1,176 @@
+/* Corpo */
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: #00C;
+}
+
+a:hover {
+	color: #f00;
+}
+
+h1 {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+body {
+	margin: auto;
+	width: 800px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/* Tabelas */
+table#tabopcteste,
+table#tabcaditem,
+table#tabteste,
+table#tabeditar,
+table#tabcadastrar {
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+
+table#tablistar,
+table#tabtestar,
+table#tabopcteste {
+	width: 800px;
+}
+
+table#tabopcteste {
+	margin-bottom: 30px;
+	color: #FFFFFF;
+	background-color: #606060;
+}
+
+table#tabcaditem td,
+table#tabcaditem th,
+table#tabteste td,
+table#tabteste th,
+table#tabeditar td,
+table#tabeditar th,
+table#tabcadastrar td,
+table#tabcadastrar th {
+	border: 1px solid #606060;
+	padding: 10px;
+}
+
+table#tabcaditem th,
+table#tabteste th,
+table#tabeditar th, 
+table#tabcadastrar th {
+	background-color: #ff9900b3;
+	font-size: 12pt;
+	font-weight: bolder;
+}
+
+table#tabteste td.ce,
+table#tabeditar td.ce,
+table#tabcadastrar td.ce {
+	color: #FFFFFF;
+	background-color: #606060;
+	font-weight: bold;
+}
+
+table#tabteste td.cd,
+table#tabeditar td.cd,
+table#tabcadastrar td.cd {
+	background-color: #CECECE;
+}
+
+table#tablistar,
+table#tabtestar {
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#tablistar th,
+table#tabtestar th {
+	background-color: #ff9900b3;
+	font-weight: bolder;
+}
+
+table#tablistar td,
+table#tablistar th,
+table#tabtestar td,
+table#tabtestar th {
+	border: 1px solid #606060;
+}
+
+table#tabopcteste td {
+	border: 1px solid #606060;
+}
+
+table#tabcaditem td.botao,
+table#tabteste td.botao,
+table#tabcadastrar td.botao,
+table#tabeditar td.botao {
+	text-align: center;
+}
+
+div.timeteste {
+	text-align: center;
+	border: 2px solid #606060;
+	background-color: #CECECE;
+}
+div.timeini {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+div.timeend {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+table#tablistar th.id {
+	width: 9%;
+}
+table#tablistar th.item {
+	width: 26%;
+}
+table#tablistar th.ip {
+	width: 20%;
+}
+table#tablistar th.criticidade {
+	width: 10%;
+}
+table#tablistar th.status {
+	width: 10%;
+}
+table#tablistar th.editarexcluir {
+	width: 25%;
+}
+
+table#tabtestar th.item{
+	width: 20%;
+}
+table#tabtestar th.ip {
+	width: 15%;
+} 
+table#tabtestar th.resultado {
+	width: 52%;
+}
+table#tabtestar th.resposta {
+	width: 13%;
+}
+
+/* Botões */
+#btlistar {
+	margin-right: 6em;
+	width: 80px;
+}
+#btcadastrar {
+	width: 80px;
+}
+
+div.adicionar {
+	text-align: right;
+}
+div.voltar {
+	margin-top: 20px;
+	text-align: center;
+}
